@@ -1,6 +1,6 @@
-# ML Classification Pipeline
+# Permutation-Forward-Feature-Selection-Framework
 
-An R-based machine learning pipeline for binary classification. It compares Linear SVM, Radial SVM, Elastic Net Logistic Regression and Random Forest, with permutation importance, forward feature selection, model tuning and interpretability analysis.
+A Permutation approach where feature values are shuffled and evaluation metrics evaluated pre and post shuffling which is model specific. Features are ranked by performance drops then FFS is carried out across multiple models. Supports mobile notifications via pushoveR and enables parallel processing for faster run times
 
 Works on any dataset, as long as the first column is the outcome and the remaining columns are the features.
 
